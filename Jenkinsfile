@@ -11,7 +11,7 @@ node {
     stage('Artifact'){
         sh """
 		mkdir workbench
-		cd target
+		#cd target
 		zip -j workbench/my-app-1.0-SNAPSHOT.jar.zip my-app-1.0-SNAPSHOT.jar
 		"""
     }
