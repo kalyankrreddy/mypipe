@@ -12,7 +12,7 @@ node {
         sh """
 		mkdir workbench
 		#cd target
-		zip -r workbench/my-app-1.0-SNAPSHOT.jar.zip my-app-1.0-SNAPSHOT.jar
+		zip -r workbench/my-app-1.0-SNAPSHOT.jar.zip target/my-app-1.0-SNAPSHOT.jar
 		"""
     }
 
